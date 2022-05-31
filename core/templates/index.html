@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+
+{% block content  %}
+
+<!-- inserindo nav -->
+  {% include 'nav.html'%}
+
+  <!-- inserindo cabeçalho -->
+  {% include 'header.html '%}
+
+  <!--Sessão-->
+  {% include 'sessao.html '%}
+
+
+  <!--serviços-->
+  {% include 'servicos.html'%}
+
+  <!--portifolio-->
+  {% include 'portifolio.html' %}
+
+
+  {% include 'maos-a-obra.html' %}
+
+
+  {% include 'footer.html' %}
+
+  
+{% endblock %}
